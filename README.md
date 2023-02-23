@@ -8,6 +8,7 @@
 
 ## Steps
 - Go to the https://console.cloud.google.com/apis/ .
+- Add `https://<<your_endpoint>>/get_oauth_token.php` in the `Authorized redirect URIs`. 
 - Create new `OAuth Client ID` under the *credentials* , then will auto generate Client ID and Client Secret.
 - Fill the inputs
 - Generate , will be see the `Token` and click `Send` button
